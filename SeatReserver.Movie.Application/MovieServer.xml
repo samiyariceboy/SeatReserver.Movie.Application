@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SeatReserver.Movie.Application</name>
+    </assembly>
+    <members>
+        <member name="M:SeatReserver.Movie.Application.Controllers.v1.MovieController.CreateMovie(SeatReserver.Movie.Domain.DTO.MovieDtos.CreateMovieDto,System.Threading.CancellationToken)">
+            <summary>
+            this method create sample vide 
+            </summary>
+            <param name="createMovieDto"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SeatReserver.Movie.Application.Controllers.v1.MovieController.UpdateMovie(System.Guid,SeatReserver.Movie.Domain.DTO.MovieDtos.UpdateMovieDto,System.Threading.CancellationToken)">
+            <summary>
+            this method update movie 
+            </summary>
+            <param name="movieId"></param>
+            <param name="updateMovieDto"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SeatReserver.Movie.Application.Controllers.v1.MovieController.GetGenres(System.Threading.CancellationToken)">
+            <summary>
+            this method retrun Genre
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
